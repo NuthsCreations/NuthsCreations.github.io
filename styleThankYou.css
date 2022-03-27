@@ -1,0 +1,331 @@
+
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow-x:hidden; 
+}
+
+.thankYouPage {
+    width: 1920px; 
+    height: 1080px; 
+    background-color: #E2DFDF; 
+    overflow: hidden; 
+
+}
+
+.mainLogo {
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    left: 25px;
+    top: 25px; 
+
+}
+
+.homeNavigation {
+
+    position: absolute;
+    width: 113px;
+    height: 49px;
+    left: 670px;
+    top: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-decoration: none;
+
+    color: #403A3A;
+
+
+}
+
+.aboutNavigation {
+
+    position: absolute;
+    width: 190px;
+    height: 49px;
+    left: 880px;
+    top: 50px;
+    text-decoration: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #403A3A;
+
+}
+
+.projectsNavigation {
+
+    position: absolute;
+    width: 154px;
+    height: 49px;
+    left: 1142px;
+    top: 50px;
+    text-decoration: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #403A3A;
+}
+
+.blogNaviagation {
+    position: absolute;
+    width: 90px;
+    height: 49px;
+    left: 1378px;
+    top: 50px;
+    text-decoration: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #403A3A;
+}
+
+.contactNavigation {
+
+    position: absolute;
+    width: 230px;
+    height: 49px;
+    left: 1562px;
+    top: 50px;
+    text-decoration: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #403A3A;
+}
+
+.homeNavigation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #403A3A;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.homeNavigation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.aboutNavigation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #403A3A;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.aboutNavigation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.projectsNavigation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #403A3A;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.projectsNavigation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.blogNaviagation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #403A3A;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.blogNaviagation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.contactNavigation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #403A3A;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.contactNavigation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.title {
+
+    position: absolute;
+    width: 1595px;
+    height: 280px;
+    left: 169px;
+    top: 307px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 108px;
+    line-height: 162px;
+
+    background: linear-gradient(180deg, #2193B0 0%, rgba(33, 147, 176, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+}
+
+.description {
+
+    position: absolute;
+    width: 1272px;
+    height: 423px;
+    left: 168px;
+    top: 447px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 75px;
+
+    color: #403A3A;
+
+
+}
+
+footer {
+    background-color: #403A3A;
+    width: 1920px;
+    height: 200px; 
+    overflow:hidden;
+}
+
+.footerText {
+
+    position: absolute;
+    width: 960px;
+    height: 70px;
+    left: 26px;
+    top: 1107px;;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+
+    color: #FFFFFF;
+
+
+}
+
+.footer > div > a {
+    position: absolute;
+    width: 744px;
+    height: 40px;
+    top: 1207px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;   
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.homeFooter {
+    left: 26px;
+}
+
+.aboutMeFooter {
+    left: 280px;
+}
+
+.projectsFooter {
+    left: 567px;
+}
+
+.blogFooter {
+    left: 858px;
+}
+
+.contactMeFooter {
+    left: 1071px; 
+}
+
+.instagramLogo {
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1500px;
+    top: 1080px;
+
+}
+
+.mailLogo {
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1650px;
+    top: 1080px;
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html> 
+    <head> 
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styleContact.css">
+        <link rel="icon" href="NCLogoTransparent.png">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <title> Nuths Creations </title> 
+    </head> 
+        <body>
+            <div class = contactPage>
+                <img src = 'NCLogo.png' class = mainLogo> </img>
+                <a href = "index.html" class = "homeNavigation"> Home </a> 
+                <a href = "about.html"class = "aboutNavigation"> About Me</a>
+                <a href = "projects.html" class = "projectsNavigation"> Projects </a>
+                <a href = "blog.html" class = "blogNaviagation"> Blog </a>
+                <a href = "contact.html" class = "contactNavigation"> Contact Me</a>
+
+                <h2 class = title data-aos="fade-in" data-aos-duration="2000" > Get The Help You Deserve </h2>
+                <p class = description data-aos="fade-in" data-aos-duration="3000" data-aos-delay="1500"> I know, it’s tough to get the help you need, however I am here for you! Feel free to fill out the form below for any inquiries, or you can messasge me on Instagram. </p>
+                <form action="https://formsubmit.co/nuthscreations@gmail.com" method="POST" class = oops>
+                    <input type="hidden" name="_subject" value="You recieved an email!">
+                    <input class = nameInput  type="text" name="name" placeholder = " Name" required>
+                    <input class = emailInput type="email" name="email" placeholder = " Email" required>
+                    <input type="hidden" name="_next" value="thankyou.html">
+                    <input class = messageInput type="text" name="message" placeholder = " Enter Your Message Here" required>
+                    <button class = submit type="submit">Send</button>
+                </form>
+                <p class = nameDisplay> Name </p>
+                <p class = emailDisplay> Email </p>
+                <p class = messageDisplay> Message </p>
+
+                <p class = socialsList > Socials </p> 
+                <div class = divider> </div>
+                <a href = 'https://www.instagram.com/nuths_creations/'>
+                    <img src = 'InstagramLogo.png' class = instagramLogoContact href="https://www.instagram.com/nuths_creations/"> </img> 
+                </a>
+            </div>
+            <footer class = footer>
+                <div> 
+                    <h1 class = footerText> Nuths Creations </h1>
+                    <a href = "index.html" class = homeFooter> Home </a> 
+                    <a href = "about.html" class = aboutMeFooter> About Me </a> 
+                    <a href = "projects.html" class = projectsFooter> Projects </a> 
+                    <a href = "blog.html" class = blogFooter> Blog </a> 
+                    <a href = "contact.html" class = contactMeFooter> Contact Me </a> 
+                </div>
+                <a href = contact.html> 
+                    <img src = 'MailLogo.png' class = mailLogo> </img> 
+                </a>
+                <a href = 'https://www.instagram.com/nuths_creations/'>
+                    <img src = 'InstagramLogo.png' class = instagramLogo href="https://www.instagram.com/nuths_creations/"> </img> 
+                </a>
+            </footer>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init();
+            </script>
+        </body>
+    </head>
+</html> 
