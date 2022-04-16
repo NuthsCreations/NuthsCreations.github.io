@@ -1766,15 +1766,15 @@
         position: absolute;
         width: 122px; 
         height: 122px;
-        left: 25px;
-        top: 25px; 
+        left: 125px;
+        top: 125px; 
 
     }
 
     .title1 {
 
         position: absolute;
-        width: 269px;
+        width: 300px;
         height: 44px;
         left: 29px;
         top: 636px;
@@ -1979,7 +1979,7 @@
 
         position: absolute;
         width: 103px;
-        height: 52px;
+        height: 45px;
         left: 112px;
         top: 171px;
 
@@ -1996,8 +1996,8 @@
     .aboutNavigation {
 
         position: absolute;
-        width: 179px;
-        height: 50px;
+        width: 170px;
+        height: 45px;
         left: 79px;
         top: 213px;
 
@@ -2014,8 +2014,8 @@
     .projectsNavigation {
 
         position: absolute;
-        width: 154px;
-        height: 53px;
+        width: 150px;
+        height: 45px;
         left: 91px;
         top: 294px;
 
@@ -2032,8 +2032,8 @@
     .blogNaviagation {
 
         position: absolute;
-        width: 75px;
-        height: 39px;
+        width: 150px;
+        height: 45px;
         left: 118px;
         top: 255px;
 
@@ -2050,8 +2050,8 @@
     .contactNavigation {
 
         position: absolute;
-        width: 228px;
-        height: 40px;
+        width: 220px;
+        height: 45px;
         left: 55px;
         top: 335px;
 
