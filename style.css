@@ -494,7 +494,7 @@
         position: absolute;
         width: 186px;
         height: 190px;
-        left: 1010px;
+        left: 1020px;
         top: 365px;
 
         font-family: 'Poppins';
@@ -695,7 +695,7 @@
     .aboutNavigation {
 
         position: absolute;
-        width: 200px;
+        width: 220px;
         height: 60px;
         left: 341px;
         top: 67px;
@@ -749,7 +749,7 @@
     .contactNavigation {
 
         position: absolute;
-        width:  245px;
+        width:  265px;
         height: 59px;
         left: 925px;
         top: 68px;
