@@ -1,4 +1,4 @@
-@media only screen and (max-width: 3000px) {
+@media only screen and (max-width: 4000px) {
     * {
         width: 100%;
         height: 100%;
@@ -11,7 +11,7 @@
     }
 
     .landingpage1 {
-        width: 1920px; 
+        width: 100%; 
         height: 1080px; 
         background-color: #403A3A; 
         overflow: hidden; 
@@ -20,7 +20,7 @@
     .landingpage2 {
         background-color: #E2DFDF; 
         height: 1080px;
-        width: 1920px; 
+        width: 100%; 
         overflow: hidden; 
 
     }
@@ -161,7 +161,7 @@
 
     .footer {
         background-color: #403A3A;
-        width: 1920px;
+        width: 100%;
         height: 200px; 
         overflow:hidden;
     }
@@ -494,7 +494,7 @@
         position: absolute;
         width: 186px;
         height: 190px;
-        left: 1020px;
+        left: 1030px;
         top: 365px;
 
         font-family: 'Poppins';
@@ -977,56 +977,57 @@
     .title3 {
 
         position: absolute;
-        width: 523px;
-        height: 113px;
-        left: 66px;
-        top: 1480px;
+        width: 358px;
+        height: 117px;
+        left: 26px;
+        top: 1430px;
 
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 72px;
-        line-height: 108px;
+        font-size: 40px;
+        line-height: 60px;
 
         color: #403A3A;
 
     }
 
     .title4{ 
+
         position: absolute;
-        width: 960px;
-        height: 280px;
-        left: 589px;
-        top: 1446px;
-        
+        width: 486px;
+        height: 291px;
+        left: 315px;
+        top: 1401px;
+
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 108px;
-        line-height: 162px;
-        
+        font-size: 70px;
+        line-height: 105px;
+
         background: linear-gradient(180deg, #2193B0 0%, rgba(33, 147, 176, 0) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        
+
     }
 
     .introduction2 {
+
         position: absolute;
-        width: 1043px;
-        height: 201px;
-        left: 66px;
-        top: 1593px;
+        width: 620px;
+        height: 209px;
+        left: 26px;
+        top: 1496px;
 
         font-family: 'Poppins';
-        font-style: normal;
+        font-style: thin;
         font-weight: 200;
         font-size: 36px;
+        line-height: 54px;
 
         color: #403A3A;
-        padding-bottom: 500px; 
-        overflow: hidden; 
 
     }
 
@@ -1289,13 +1290,15 @@
     }
 
     .secondImage {
-        position: absolute;
-        width: 600px;
-        height: 600px; 
-        left: 1195px;
-        top: 1284px; 
-        border: 2px solid #403A3A;
 
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 675px;
+        top: 1405px;
+
+        border: 4px solid #000000;
+        box-sizing: border-box;
 
     }
 }
@@ -1406,62 +1409,60 @@
 
     }
 
-
-
-
     .title3 {
 
         position: absolute;
-        width: 523px;
-        height: 113px;
-        left: 66px;
-        top: 1480px;
+        width: 514px;
+        height: 123px;
+        left: 26px;
+        top: 1373px;
 
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 72px;
-        line-height: 108px;
+        font-size: 40px;
+        line-height: 60px;
 
         color: #403A3A;
 
     }
 
     .title4{ 
+
         position: absolute;
-        width: 960px;
-        height: 280px;
-        left: 589px;
-        top: 1446px;
-        
+        width: 304px;
+        height: 301px;
+        left: 26px;
+        top: 1423px;
+
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 108px;
-        line-height: 162px;
-        
+        font-size: 50px;
+        line-height: 75px;
+
         background: linear-gradient(180deg, #2193B0 0%, rgba(33, 147, 176, 0) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        
+
     }
 
     .introduction2 {
+
         position: absolute;
-        width: 1043px;
-        height: 201px;
-        left: 66px;
-        top: 1593px;
+        width: 326px;
+        height: 209px;
+        left: 26px;
+        top: 1496px;
 
         font-family: 'Poppins';
-        font-style: normal;
+        font-style: thin;
         font-weight: 200;
-        font-size: 36px;
+        font-size: 30px;
+        line-height: 45px;
 
         color: #403A3A;
-        padding-bottom: 500px; 
-        overflow: hidden; 
 
     }
 
@@ -1726,13 +1727,15 @@
     }
 
     .secondImage {
-        position: absolute;
-        width: 600px;
-        height: 600px; 
-        left: 1195px;
-        top: 1284px; 
-        border: 2px solid #403A3A;
 
+        position: absolute;
+        width: 275px;
+        height: 275px;
+        left: 368px;
+        top: 1417px;
+
+        border: 4px solid #000000;
+        box-sizing: border-box;
 
     }
 }
@@ -1844,56 +1847,58 @@
     .title3 {
 
         position: absolute;
-        width: 523px;
-        height: 113px;
-        left: 66px;
-        top: 1480px;
+        width: 291px;
+        height: 123px;
+        left: 19px;
+        top: 1149px;
 
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 72px;
-        line-height: 108px;
+        font-size: 40px;
+        line-height: 60px;
 
         color: #403A3A;
 
     }
 
     .title4{ 
+
         position: absolute;
-        width: 960px;
-        height: 280px;
-        left: 589px;
-        top: 1446px;
-        
+        width: 242px;
+        height: 301px;
+        left: 35px;
+        top: 1211px;
+
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 108px;
-        line-height: 162px;
-        
+        font-size: 50px;
+        line-height: 75px;
+
         background: linear-gradient(180deg, #2193B0 0%, rgba(33, 147, 176, 0) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        
+
     }
 
     .introduction2 {
+
         position: absolute;
-        width: 1043px;
-        height: 201px;
-        left: 66px;
-        top: 1593px;
+        width: 257px;
+        height: 422px;
+        left: 19px;
+        top: 223px;
 
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 200;
-        font-size: 36px;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
 
         color: #403A3A;
-        padding-bottom: 500px; 
-        overflow: hidden; 
 
     }
 
@@ -1998,7 +2003,7 @@
     .aboutNavigation {
 
         position: absolute;
-        width: 150px;
+        width: 200px;
         height: 45px;
         left: 79px;
         top: 213px;
@@ -2052,7 +2057,7 @@
     .contactNavigation {
 
         position: absolute;
-        width: 180px;
+        width: 200px;
         height: 45px;
         left: 55px;
         top: 335px;
